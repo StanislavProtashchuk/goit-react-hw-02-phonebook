@@ -7,7 +7,7 @@ const ContactList = ({ filteredContacts, deleteContact }) => {
             return (
                 <li key={id}>
                     {name}: {number}
-                    <button type='button'  id={id} onClick={() => deleteContact(id)}>Delete</button>
+                    <button type='button' id={id} onClick={() => deleteContact(id)}>Delete</button>
                 </li>
         )})}
         </ul>
