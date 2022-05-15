@@ -55,7 +55,7 @@ export class App extends Component {
       <div>
         <h1>Phonebook</h1>
         <ContactForm onSubmit={this.formSubmitHandler} />
-        <h2>Contacts</h2>
+        <h2 style={{marginTop: '20px'}}>Contacts</h2>
         <Filter value={filter} onChange={this.handleFilter} />
         <ContactList filteredContacts={this.filteredContacts()} deleteContact={this.deleteContact} />
       </div>
